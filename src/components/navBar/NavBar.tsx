@@ -21,7 +21,7 @@ return(
 
        <div className="nav-btn">
             <a href="https://t.me/nagdista_edu" className=" rounded-full px-[20px] py-[4px] bg-red-500 cursor-pointer text-white text-[20px] capitalize max-md:text-lg">
-                Telegram Channel
+                Telegram
             </a>
           
        </div>

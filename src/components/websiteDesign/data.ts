@@ -7,7 +7,19 @@ lecDescription:"hello i am lecture"
     lecLink:"https://t.me/nagdista_edu/4",
     lecDescription:"hello i am lecture"
     },{
-        lecName : "lecture 3",
+        lecName : "lecture 5 ",
         lecLink:"https://t.me/nagdista_edu/5",
         lecDescription:"hello i am lecture"
-        },]
+        },{
+            lecName : "lecture 6 ",
+            lecLink:"https://t.me/nagdista_edu/5",
+            lecDescription:"hello i am lecture"
+            },{
+                lecName : "lecture 7 ",
+                lecLink:"https://t.me/nagdista_edu/5",
+                lecDescription:"hello i am lecture"
+                },{
+                    lecName : "lecture 8 ",
+                    lecLink:"https://t.me/nagdista_edu/5",
+                    lecDescription:"hello i am lecture"
+                    },]
