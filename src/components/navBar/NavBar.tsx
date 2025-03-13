@@ -6,7 +6,7 @@ const NavBar = ({}:Iprops)=>{
 return(
     <div className="w-full h-fit p-3 bg-red-200 flex justify-between items-center">
        <div className="logo">
-        <h2 className="capitalize text-red-500 font-bold text-2xl">nagdista<span className="uppercase pl-1.5 text-blue-500">edu</span></h2>
+        <h2 className="capitalize text-red-500 font-bold text-2xl max-sm:text-lg">nagdista<span className="uppercase pl-1.5 text-blue-500">edu</span></h2>
        </div>
 
        <div className="links  max-sm:hidden max-md:bg-green-500  lg:bg-blue-500 ">
@@ -20,7 +20,7 @@ return(
        </div>
 
        <div className="nav-btn">
-            <button className="rounded-full px-[20px] py-[4px] bg-red-500 cursor-pointer text-white text-[20px] capitalize">
+            <button className="rounded-full px-[20px] py-[4px] bg-red-500 cursor-pointer text-white text-[20px] capitalize max-md:text-lg">
                 join Group
             </button>
           
