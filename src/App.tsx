@@ -13,6 +13,8 @@ function App() {
    <div className="container min-w-full px-2.5 ">
    <WebsiteDesign/>   
     <Econemy/>
+    <Econemy/>
+    <Econemy/>
 
    </div>
    <Footer/>

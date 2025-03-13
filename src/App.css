@@ -1,6 +1,7 @@
 body{
     position: relative;
     height: 100vh;
+    padding-bottom: 50px;
 }
 
 .btn {
@@ -21,14 +22,12 @@ body{
 
 .footer{
     width: 100%;
-    position: absolute;
-    bottom: 20px;
     text-align: center;
+    padding: 20px 0;
     text-transform: capitalize;
+    z-index: 1000;
 }
 hr {
-
-
   margin: 20px auto;      
   width: 50%;   
   border: 1px dashed #ccc;
