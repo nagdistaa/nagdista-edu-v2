@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <NavBar/>
-   <div className="container min-w-full px-2.5  ">
+   <div className="container min-w-full px-2.5 ">
    <WebsiteDesign/>   
     <Econemy/>
 
