@@ -5,7 +5,11 @@ import NavBar from './components/navBar/NavBar'
 function App() {
 
   return (
-   <NavBar/>
+    <>
+    <NavBar/>
+   <div className="container min-w-full px-2.5 ">
+   </div>
+   </>
   )
 }
 

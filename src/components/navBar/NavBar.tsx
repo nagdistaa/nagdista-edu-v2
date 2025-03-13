@@ -4,12 +4,12 @@ interface Iprops {
 
 const NavBar = ({}:Iprops)=>{
 return(
-    <div className="w-full h-fit p-2 bg-red-200 flex justify-between items-center">
+    <div className="w-full h-fit p-3 bg-red-200 flex justify-between items-center">
        <div className="logo">
         <h2 className="capitalize text-red-500 font-bold text-2xl">nagdista<span className="uppercase pl-1.5 text-blue-500">edu</span></h2>
        </div>
 
-       <div className="links">
+       <div className="links  max-sm:hidden max-md:bg-green-500  lg:bg-blue-500 ">
         <ul className="flex items-center justify-between gap-2 capitalize">
             <li><a href="#">home</a></li>
             <li><a href="#">about</a></li>
@@ -20,8 +20,8 @@ return(
        </div>
 
        <div className="nav-btn">
-            <button className="rounded-full px-[30px] py-1 bg-red-500 cursor-pointer">
-                join
+            <button className="rounded-full px-[20px] py-[4px] bg-red-500 cursor-pointer text-white text-[20px] capitalize">
+                join Group
             </button>
           
        </div>
