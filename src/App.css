@@ -25,3 +25,11 @@ body{
     text-align: center;
     text-transform: capitalize;
 }
+hr {
+
+
+  margin: 20px auto;      
+  width: 50%;   
+  border: 1px dashed #ccc;
+  border-radius: 50px;
+}

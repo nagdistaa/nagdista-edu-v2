@@ -13,7 +13,6 @@ function App() {
    <WebsiteDesign/>   
    <hr/>
 
-   <p className='text-center'>...</p>
    </div>
    <Footer/>
    </>

@@ -5,7 +5,7 @@ interface Iprops {}
 
 const WebsiteDesign = ({}: Iprops) => {
   return (
-    <div className= "website-design-container bg-blue-500 rounded-[5px] h-[280px] overflow-y-scroll relative mb-[30px]">
+    <div className= "website-design-container bg-blue-500 rounded-[5px] h-[280px] overflow-y-scroll relative mb-[30px] scroll-smooth">
   
     
       <div className="bg-blue-500 z-10 text-white text-[20px] sticky top-0 left-0 font-[700]">

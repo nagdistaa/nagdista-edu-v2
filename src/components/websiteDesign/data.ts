@@ -22,4 +22,12 @@ lecDescription:"hello i am lecture"
                     lecName : "lecture 8 ",
                     lecLink:"https://t.me/nagdista_edu/5",
                     lecDescription:"hello i am lecture"
-                    },]
+                    },{
+                        lecName : "lecture 9 ",
+                        lecLink:"https://t.me/nagdista_edu/5",
+                        lecDescription:"hello i am lecture"
+                        },{
+                            lecName : "lecture 10",
+                            lecLink:"https://t.me/nagdista_edu/5",
+                            lecDescription:"hello i am lecture"
+                            },]
