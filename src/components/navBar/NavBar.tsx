@@ -4,9 +4,9 @@ interface Iprops {
 
 const NavBar = ({}:Iprops)=>{
 return(
-    <div className="w-full h-fit p-3 bg-red-200 flex justify-between items-center">
+    <div className="w-full h-fit p-3 bg-red-200 flex justify-between items-center mb-4">
        <div className="logo">
-        <h2 className="capitalize text-red-500 font-bold text-2xl max-sm:text-lg">nagdista<span className="uppercase pl-1.5 text-blue-500">edu</span></h2>
+        <h2 className="capitalize text-red-500 font-bold text-2xl max-sm:text-[20px]">nagdista<span className="uppercase pl-1.5 text-blue-500">edu</span></h2>
        </div>
 
        <div className="links  max-sm:hidden max-md:bg-green-500  lg:bg-blue-500 ">
