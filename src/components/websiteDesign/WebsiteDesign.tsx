@@ -5,7 +5,7 @@ interface Iprops {}
 
 const WebsiteDesign = ({}: Iprops) => {
   return (
-    <div className= "website-design-container bg-blue-500 rounded-[5px] h-[400px] overflow-y-scroll relative">
+    <div className= "website-design-container bg-blue-500 rounded-[5px] h-[300px] overflow-y-scroll relative">
   
     
       <div className="bg-blue-500 z-10 text-white text-[20px] sticky top-0 left-0 font-[700]">
@@ -15,11 +15,11 @@ const WebsiteDesign = ({}: Iprops) => {
       </div>
   
       {/* المحتوى المتبقي */}
-      <div className="cards flex flex-wrap mt-[20px] gap-3  px-[10px] pb-[30px]">
+      <div className="cards flex justify-between flex-wrap mt-[20px] gap-3  px-[10px] pb-[30px]">
      
         {
             websiteDesingData.map((e)=>{
-                return( <Card lecName={e.lecName}  lecDescripton={e.lecDescription }lecLink={e.lecLink} />)
+                return( <Card lecName={e.lecName} lecLink={e.lecLink} />)
             })
         }
       </div>
