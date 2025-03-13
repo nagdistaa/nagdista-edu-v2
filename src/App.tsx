@@ -11,7 +11,7 @@ function App() {
     <NavBar/>
    <div className="container min-w-full px-2.5  ">
    <WebsiteDesign/>   
-   <hr/>
+   <WebsiteDesign/>   
 
    </div>
    <Footer/>
