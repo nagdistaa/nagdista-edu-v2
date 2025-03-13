@@ -1,18 +1,20 @@
 import { Send } from "lucide-react";
 
-interface Iprops {
-
+interface IWebsiteDesignData {
+lecName:string;
+lecLink:string;
+lecDescripton:string
 }
 
-const Card = ({}:Iprops)=>{
+const Card = ({lecDescripton , lecLink , lecName}:IWebsiteDesignData)=>{
 return(
-    <div className="card bg-red-400 p-[10px] rounded-[12px]">
+    <div className="card bg-white p-[10px] rounded-[12px]">
     <div className="header flex justify-between items-center mb-[15px]">
-        <h1>lecture 1</h1>
-        <a className="btn"><Send /> </a>
+        <h1 className="capitalize font-[600] text-red-500">{lecName}</h1>
+        <a href={lecLink} className="btn"><Send size={20} /> </a>
     </div>
     <div className="descripton mb-[15px]">
-    <p className="capitalize">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sed ad modi molestiae consequatur excepturi?</p>
+    <p className="capitalize">{lecDescripton}</p>
     </div>
 </div>
 )

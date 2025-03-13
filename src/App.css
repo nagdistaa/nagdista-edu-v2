@@ -1,8 +1,15 @@
-.btn{
-    background: green;
-    padding: 5px 20px;
-   border-radius: 25px;
-   cursor: pointer;
-   color: #fff;
-   cursor: pointer;
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fb2c36;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  cursor: pointer;
+}
+
+.website-design-container::-webkit-scrollbar {
+  width: 0;
 }
