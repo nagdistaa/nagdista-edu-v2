@@ -1,33 +1,22 @@
-export const websiteDesingData = [{
+export const websiteDesingData = [
+{
 lecName : "lecture 1",
-lecLink:"https://t.me/nagdista_edu/3",
+lecLink:"https://t.me/nagdista_edu/25",
 lecDescription:"hello i am lecture"
-},{
-    lecName : "lecture 2",
-    lecLink:"https://t.me/nagdista_edu/4",
+},
+{
+    lecName : "lecture 1 , 2",
+    lecLink:"https://t.me/nagdista_edu/26",
     lecDescription:"hello i am lecture"
-    },{
-        lecName : "lecture 5 ",
-        lecLink:"https://t.me/nagdista_edu/5",
-        lecDescription:"hello i am lecture"
-        },{
-            lecName : "lecture 6 ",
-            lecLink:"https://t.me/nagdista_edu/5",
-            lecDescription:"hello i am lecture"
-            },{
-                lecName : "lecture 7 ",
-                lecLink:"https://t.me/nagdista_edu/5",
-                lecDescription:"hello i am lecture"
-                },{
-                    lecName : "lecture 8 ",
-                    lecLink:"https://t.me/nagdista_edu/5",
-                    lecDescription:"hello i am lecture"
-                    },{
-                        lecName : "lecture 9 ",
-                        lecLink:"https://t.me/nagdista_edu/5",
-                        lecDescription:"hello i am lecture"
-                        },{
-                            lecName : "lecture 10",
-                            lecLink:"https://t.me/nagdista_edu/5",
-                            lecDescription:"hello i am lecture"
-                            },]
+    },
+{
+lecName : "lecture 3",
+lecLink:"https://t.me/nagdista_edu/27",
+lecDescription:"hello i am lecture"
+},
+{
+    lecName : "lecture 4",
+    lecLink:"https://t.me/nagdista_edu/28",
+    lecDescription:"hello i am lecture"
+    },
+]

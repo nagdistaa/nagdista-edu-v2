@@ -4,18 +4,18 @@ import Card from "./Card";
 import { websiteDesingData } from "./data";
 
 const WebsiteDesign = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const openClose = () => {
     setIsOpen(prevState => !prevState);
   };
 
   return (
-    <div className="website-design-container bg-blue-500 rounded-[5px] max-h-[280px] overflow-y-scroll relative mb-[30px] scroll-smooth">
+    <div className="website-design-container bg-blue-500 rounded-[5px] max-h-[280px] overflow-y-scroll relative mb-[30px]   scroll-smooth">
       <div className="bg-blue-500 z-10 text-white text-[20px] sticky top-0 left-0 font-[700] flex justify-between items-center">
         <h1 className="py-2 px-4 w-full rounded-2xl cursor-pointer"   onClick={openClose}>Website Design</h1>
         <ChevronDown
-          className="mr-[10px] cursor-pointer bg-white text-blue-500 rounded-b-full "
+          className="mr-[10px] cursor-pointer text-white-500 rounded-b-2xl "
           onClick={openClose}
           style={{ transform: isOpen ? 'rotate(0deg)' : 'rotate(270deg)' }}
         />
