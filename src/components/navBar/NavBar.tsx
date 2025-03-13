@@ -23,7 +23,7 @@ return(
             <button className="rounded-full px-[30px] py-1 bg-red-500 cursor-pointer">
                 join
             </button>
-            <button>test</button>
+          
        </div>
     </div>
 )
