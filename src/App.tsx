@@ -10,7 +10,10 @@ function App() {
     <>
     <NavBar/>
    <div className="container min-w-full px-2.5  ">
-   <WebsiteDesign/>
+   <WebsiteDesign/>   
+   <hr/>
+
+   <p className='text-center'>...</p>
    </div>
    <Footer/>
    </>
