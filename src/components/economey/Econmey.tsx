@@ -11,7 +11,7 @@ const Econemy = () => {
   };
 
   return (
-    <div className="website-design-container bg-blue-500 rounded-[5px] max-h-[280px] overflow-y-scroll relative mb-[30px]   scroll-smooth">
+    <div className="website-design-container bg-blue-500 rounded-[5px] max-h-[280px] overflow-y-scroll relative mb-[30px]   scroll-smooth shadow-2xl">
       <div className="bg-blue-500 z-10 text-white text-[20px] sticky top-0 left-0 font-[700] flex justify-between items-center">
         <h1 className="py-2 px-4 w-full rounded-2xl cursor-pointer"   onClick={openClose}>Economy</h1>
         <ChevronDown

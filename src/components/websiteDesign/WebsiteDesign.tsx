@@ -11,9 +11,9 @@ const WebsiteDesign = () => {
   };
 
   return (
-    <div className="website-design-container bg-blue-500 rounded-[5px] max-h-[280px] overflow-y-scroll relative mb-[30px]   scroll-smooth">
+    <div className="website-design-container bg-blue-500 rounded-[5px] max-h-[280px] overflow-y-scroll relative mb-[30px]   scroll-smooth shadow-2xl">
       <div className="bg-blue-500 z-10 text-white text-[20px] sticky top-0 left-0 font-[700] flex justify-between items-center">
-        <h1 className="py-2 px-4 w-full rounded-2xl cursor-pointer"   onClick={openClose}>Website Design</h1>
+        <h1 className="py-2 px-4 w-full rounded-2xl cursor-pointer "   onClick={openClose}>Website Design</h1>
         <ChevronDown
           className="mr-[10px] cursor-pointer text-white-500 rounded-b-2xl "
           onClick={openClose}
@@ -22,7 +22,7 @@ const WebsiteDesign = () => {
       </div>
 
       {isOpen && (
-        <div className="cards flex justify-between flex-wrap mt-[20px] gap-3 px-[10px] pb-[30px]">
+        <div className="cards flex justify-between flex-wrap mt-[20px] gap-3 px-[10px] pb-[30px] ">
           {websiteDesingData.map((e) => {
             return <Card lecName={e.lecName} lecLink={e.lecLink} />;
           })}
