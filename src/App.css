@@ -7,7 +7,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fb2c36;
+  background: #FF562F ;
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
@@ -15,7 +15,7 @@ body{
   cursor: pointer;
 }
 
-.website-design-container::-webkit-scrollbar {
+.container-material::-webkit-scrollbar {
   width: 0;
 }
 
@@ -23,7 +23,7 @@ body{
   margin-top: 50px;
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px ;
     text-transform: capitalize;
     z-index: 1000;
 }
